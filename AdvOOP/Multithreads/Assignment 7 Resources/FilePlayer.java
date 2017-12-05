@@ -11,7 +11,6 @@ import javax.sound.sampled.Clip;
  *
  */
 public class FilePlayer {
-
 	/**
 	 * Plays an audio clip located at the given path
 	 * 

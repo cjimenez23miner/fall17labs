@@ -1,9 +1,9 @@
 public class musicBox{
     public static void main(String[] args){
-    /*    String[] list1= {"do", "mi","sol","si","do-octave"};
+        String[] list1= {"do", "mi","sol","si","do-octave"};
         String[] list2= {"re","fa","la","do-octave"};
         int[] seq= {1,2,1,2,1,2,1,0};
-        song(list1, list2, seq);*/
+        song(list1, list2, seq);
 
         String[] list3= {"do","do","sol","sol","sol","mi","mi","do"
                         ,"sol","sol","mi","mi","sol","sol","mi","mi"
@@ -15,7 +15,6 @@ public class musicBox{
                     ,1,1,2,2,1,1,2,1,1,2,2,1,1,2
                     ,1,1,1,1,2,2,1,2,2,1,1,2,2,1};
         song(list3, list4, seq2);
-
     }
 
     public static void song(String[] list1, String[] list2, int[]seq){
@@ -52,7 +51,7 @@ class PlayList extends Thread {
         for(int i= 0; i<seq.length; i++){
             if(seq[i]==num || seq[i]==0){
                 FP.play("C:\\Users\\1\\Documents\\GitHub\\fall17labs\\AdvOOP\\Multithreads\\Assignment 7 Resources\\Sounds\\"+note[x]+".wav");
-                System.out.println(note[x]);
+                System.out.print(note[x]+" ");
                 x++;
             } else{
                 try{
