@@ -1,3 +1,9 @@
+/**
+ * 
+ * 
+ * @author Carlos Jimenez
+ *
+ */
 public class musicBox{
     public static void main(String[] args){
         String[] list1= {"do", "mi","sol","si","do-octave"};
