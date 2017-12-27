@@ -9,7 +9,7 @@ public class musicBox{
         String[] list1= {"do", "mi","sol","si","do-octave"};
         String[] list2= {"re","fa","la","do-octave"};
         int[] seq= {1,2,1,2,1,2,1,0};
-    //    song(list1, list2, seq);
+    //    song(list1, list2, seq); //Uncomment to play DoReMiFaSolLaSiDo
 
         String[] list3= {"do","do","sol","sol","sol","mi","mi","do"
                         ,"sol","sol","mi","mi","sol","sol","mi","mi"
@@ -20,7 +20,7 @@ public class musicBox{
         int[] seq2= {1,1,1,1,2,2,1,2,2,1,1,2,2,1
                     ,1,1,2,2,1,1,2,1,1,2,2,1,1,2
                     ,1,1,1,1,2,2,1,2,2,1,1,2,2,1};
-        song(list3, list4, seq2);
+        song(list3, list4, seq2); //Uncomment to play Twinky Twinky Little Star
     }
 
     public static void song(String[] list1, String[] list2, int[]seq){
